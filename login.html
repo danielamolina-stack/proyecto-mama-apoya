@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamá Apoya - Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+</head>
+<body>
+
+    <!-- MENÚ -->
+    <nav class="purple darken-3">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">Mamá Apoya</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li class="active"><a href="login.html">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="center-align purple-text text-darken-3">Accede a tu cuenta</h2>
+
+        <div class="row">
+            <form class="col s12 m6 offset-m3">
+                <div class="input-field col s12">
+                    <input id="correo_login" type="email" class="validate" required>
+                    <label for="correo_login">Correo electrónico</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <input id="pass_login" type="password" class="validate" required>
+                    <label for="pass_login">Contraseña</label>
+                </div>
+
+                <div class="center-align">
+                    <button class="btn purple darken-3 waves-effect waves-light" type="submit">
+                        Ingresar
+                    </button>
+                    <br><br>
+                    <a href="registro.html" class="btn-flat purple-text">¿No tienes cuenta? Regístrate aquí</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+</body>
+</html>
